@@ -6,7 +6,7 @@
 * Author   : beingeorge
 * Support  : hello@beingeorge.com
 * 
----------oso---------*/
+------------------*/
 
 
 /*-----------------
@@ -98,7 +98,9 @@ a,
 /*** Typography ***/
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Kaushan Script', cursive;
+	/* font-family: 'Kaushan Script', cursive; */
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
 	letter-spacing: 1px;
 	margin: 0;
 	color: #fff;
@@ -284,7 +286,8 @@ textarea.form-control {
 }
 
 .btn-custom-2 {
-	background: #5ac24e;
+	/* background: #5ac24e; */
+	background: #30CFFF;
 	border-radius: 3px;
 	color: #fff;
 }
@@ -293,7 +296,8 @@ textarea.form-control {
 .btn-custom-2:focus,
 .btn-custom-2:active,
 .btn-custom-2.active {
-	background: #5ac24e;
+	/* background: #5ac24e; */
+	background: #30CFFF;
 	color: #fff;
 	box-shadow: 0px 10px 20px rgba(0,0,0,0.1) 
 }
@@ -439,7 +443,8 @@ textarea.form-control {
 
 .module-icon {
 	font-size: 32px;
-	color: #5ac24e !important;
+	/* color: #5ac24e !important; */
+	color: #30CFFF !important;
 	margin: 0 auto;
 	height: 100px;
 	width: 100px;
@@ -689,7 +694,8 @@ textarea.form-control {
 }
 
 .header-desc .typed {
-	color: #5ac24e !important
+	/* color: #5ac24e !important */
+	color: #30CFFF !important;
 }
 
 
@@ -937,11 +943,13 @@ textarea.form-control {
 
 .navbar-brand h1:after, .footer-logo h3:after {
     content: ".";
-    color: #5ac24e !important;
+	/* color: #5ac24e !important; */
+	color: #30CFFF !important;
 }
 
 .navbar-custom .navbar-nav > li > a.active {
-	color: #5ac24e !important;
+	/* color: #5ac24e !important; */
+	color: #30CFFF !important;
 	background-color: rgba(255,255,255,0.05) !important;
 }
 
@@ -1018,7 +1026,8 @@ textarea.form-control {
 
 #filter li:hover,
 #filter li.active {
-	color: #5ac24e !important;
+	/* color: #5ac24e !important; */
+	color: #30CFFF !important;
 	background-color: rgba(255,255,255,0.05);
 }
 
@@ -1212,7 +1221,8 @@ figure {
 }
 
 .iconbox-icon {
-	color: #5ac24e !important;
+	/* color: #5ac24e !important; */
+	color: #30CFFF !important;
     height: 100px;
     width: 100px;
     margin: 0 auto;
@@ -1283,7 +1293,8 @@ figure {
 }
 
 .text-custom {
-	color: #5ac24e !important;
+	/* color: #5ac24e !important; */
+	color: #30CFFF !important;
 }
 
 .about-social li a {
@@ -1300,7 +1311,8 @@ figure {
 }
 
 .about-social li a:hover {
-    color: #5ac24e;
+	/* color: #5ac24e; */
+	color: #30CFFF;
     box-shadow: -6px 6px 40px rgba(0,0,0,0.3) !important;
 }
 
@@ -1343,7 +1355,8 @@ figure {
 }
 
 .owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span {
-	background-color: #5ac24e;
+	/* background-color: #5ac24e; */
+	background-color: #30CFFF;
 	width: 20px
 }
 
@@ -1407,7 +1420,8 @@ figure {
 	bottom: 15px;
 	right: 15px;
 	border-radius: 4px;
-	background-color: #5ac24e;
+	/* background-color: #5ac24e; */
+	background-color: #30CFFF;
 	color: #fff;
 	padding: 3px 15px;
 	font-size: 14px;
@@ -1416,7 +1430,8 @@ figure {
 }
 
 .blogList:hover .blogList-img span {
-    background: #5ac24e;
+	/* background: #5ac24e; */
+	background: #30CFFF;
     color: #fff;
 }
 
@@ -1512,10 +1527,12 @@ figure {
 .blog-detail-content blockquote {
 	font-size: 14px;
     background: transparent;
-    border-color: #5ac24e;
+	/* border-color: #5ac24e; */
+	border-color: #30CFFF;
     padding: 5px 10px;
     border-radius: 4px;
-    border-left: 5px solid #5ac24e;
+	/* border-left: 5px solid #5ac24e; */
+	border-left: 5px solid #30CFFF;
 }
 
 .blog-detail-content blockquote p {
@@ -1554,7 +1571,8 @@ figure {
 }
 
 .blog-detail-category {
-    color: #5ac24e;
+	/* color: #5ac24e; */
+	color: #30CFFF;
     background-color: rgba(255,255,255,0.05);
     font-size: 14px;
     padding: 3px 15px;
@@ -1583,13 +1601,15 @@ figure {
     text-transform: capitalize;
     margin-bottom: 10px;
     font-size: 14px;
-    color: #5ac24e;
+	/* color: #5ac24e; */
+	color: #30CFFF;
     background-color: rgba(255,255,255,0.05);
     border-radius: 3px;
 }
 
 .tags:hover {
-    color: #5ac24e;
+	/* color: #5ac24e; */
+	color: #30CFFF;
     box-shadow: -6px 6px 40px rgba(0,0,0,0.3) !important;
 }
 
@@ -1725,7 +1745,8 @@ figure {
 
 .social-links li a:hover {
 	box-shadow: -6px 6px 40px rgba(0,0,0,0.3) !important;
-	color: #5ac24e !important;
+	/* color: #5ac24e !important; */
+	color: #30CFFF !important;
 }
 
 
