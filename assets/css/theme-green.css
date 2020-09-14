@@ -109,7 +109,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 60px;
 	font-weight: 400;
 	text-align: center;
-	padding-top: 20px;
+	padding-top: 60px;
 	padding-bottom: 30px;
 }
 /*** Reset border-radius ***/
@@ -895,7 +895,7 @@ textarea.form-control {
 }
 
 .ham8.active .middle {
-	//stroke-dashoffset: -20px;
+	stroke-dashoffset: -20px;
 	transform: rotate(90deg);
 }
 
