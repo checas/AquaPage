@@ -823,6 +823,9 @@ textarea.form-control {
 *   3. Navigation
 /* ---------------------------------------------- */
 
+#navbarToggler{
+	white-space: nowrap;
+}
 
 .is-sticky .header {
 	box-shadow: 0 6px 30px rgba(0,0,0,0.05);
@@ -2070,6 +2073,11 @@ figure {
 	.navbar-light .navbar-nav .nav-link {
 		line-height: 15px;
 		font-size: 14px;
+	}
+
+	.navbar .navbar-container {
+		display: flex !important;
+		flex-flow: row;
 	}
 
 	.intro h1 {
