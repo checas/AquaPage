@@ -823,8 +823,16 @@ textarea.form-control {
 *   3. Navigation
 /* ---------------------------------------------- */
 
+.active_logo_navbar{
+	display: none !important;
+}
+
 #navbarToggler{
 	white-space: nowrap;
+}
+
+.navbar-collapse .collapse .show{
+	padding-left: 80px;
 }
 
 .is-sticky .header {
@@ -1953,7 +1961,7 @@ figure {
 		display: flex !important;
 		flex-flow: row;
 	}
-	
+
 	.nav>li>a {
 		padding-left: 10px;
 		padding-right: 10px;

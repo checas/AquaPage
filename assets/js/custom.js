@@ -50,7 +50,18 @@ $('body').scrollspy({
 })
 
 $(".ham").on('click', function(event) {    
-    $(this).toggleClass("active");
+	$(this).toggleClass("active");
+	var lineaMedia = document.getElementById("mid-line");
+	lineaMedia.classList.toggle("active");
+	
+	if (lineaMedia.classList.contains("active")){
+		lineaMedia.setAttribute("d", "m 10,50 h 80");
+	}else {
+		lineaMedia.setAttribute("d", "m 30,50 h 40");
+	}
+	// console.log(barra.classList.contains("active"));
+	var logo = document.getElementById("logo_navbar");
+	logo.classList.toggle("active_logo_navbar");
 });
 
 /* ---------------------------------------------- /*
