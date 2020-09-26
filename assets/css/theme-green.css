@@ -1966,6 +1966,10 @@ figure {
 		padding-left: 10px;
 		padding-right: 10px;
 	}
+
+	#navbar-lista {
+		align-items: inherit;
+	}
 }
 
 @media (min-width: 991px) {
@@ -1977,6 +1981,7 @@ figure {
 	    visibility: visible;
 	    opacity: 1;
 	}
+	
 }
 
 
@@ -2081,6 +2086,10 @@ figure {
 	.side-image-wrapper:after {
 		top: -10%;
 		left: -10%;
+	}
+
+	#navbar-lista{
+		align-items: inherit;
 	}
 
 	.navbar-light .navbar-nav .nav-link {
